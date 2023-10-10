@@ -8,7 +8,18 @@ import { BsDot } from 'react-icons/bs'
 
 const Blog = () => {
   const { topicSlug } = useParams("");
+  const [name, setName] = useState("");
+  const  { slugName } = useState('');
+  
   const [loading, setLoading] = useState(false);
+
+
+
+
+
+  useEffect() => ({
+    setName= value.name.
+  })
 
   const news = [{
     title: "Getting Started with Blockchain Development",
